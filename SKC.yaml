@@ -1,0 +1,17 @@
+proxies:
+  - name: besti
+    server: 103.77.107.67
+    port: 1443
+    type: vmess
+    uuid: be705834-5858-144e-0924-ca190b0e2e60
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v27.tiktokcdn.com
+    network: ws
+    ws-opts:
+      path: /6c4ffb7/
+      headers:
+        Host: v27.tiktokcdn.com
+    udp: true
